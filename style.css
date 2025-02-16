@@ -46,7 +46,7 @@ nav ul li {
     font-family: 'Varela Round', sans-serif;
     display: flex;
     margin: 23px auto;
-    width: 70%;
+    width: 75%;
     border-radius: 12px;
     padding: 34px;
     background-image: url('images/bg4.png');
@@ -84,13 +84,19 @@ nav ul li {
 
 .songItemcontainer {
     margin-top: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
 }
 
 .songItem {
     height: 50px;
     display: flex;
     background-color: rgb(255, 182, 193);
-    width: 75%;
+    width: 30%;
     color: black;
     margin: 12px 0px;
     justify-content: space-between;
